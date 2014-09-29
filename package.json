@@ -1,0 +1,21 @@
+{
+  "name": "ncf-client",
+  "main": "index.html",
+  "version": "0.0.1",
+  "single-instance": true,
+// "node-remote": "kabriolet.test",
+// "main": "http://kabriolet.test/ncf-client/app",
+  "window": {
+    "title": "ncf-client",
+    "width": 1024,
+    "height": 768,
+    "min_width": 1024,
+    "min_height": 768,
+    "toolbar": true,
+    "fullscreen": false,
+    "kiosk": false,
+    "position": "center"
+  },
+  // "nodejs": false,
+  "chromium-args": "--child-clean-exit"
+}
